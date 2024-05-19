@@ -1,0 +1,11 @@
+{
+  "preload": "preload.js",
+  "logo": "logo.png",
+  "features": [
+    {
+      "code": "search",
+      "explain": "萌娘百科搜索",
+      "cmds": ["mnbk", "萌娘百科", "moegirl"]
+    }
+  ]
+}
