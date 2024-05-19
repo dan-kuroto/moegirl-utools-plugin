@@ -109,6 +109,7 @@ window.exports = {
       },
       // 子输入框内容变化时被调用 可选 (未设置则无搜索)
       search: (action, searchWord, callbackSetList) => {
+        searchWord = searchWord.trim();
         if (!searchWord) {
           // 搜索框为空时，显示历史搜索记录
           callbackSetList(queryHistory());
